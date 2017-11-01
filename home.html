@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+
+    <h1> УСПШШНІСТЬ НАВЧАННЯ ВІДВІДУВАЧІВ КУРСІВ </h1>
+    <h2> вітаємо , будь-ласка приділіть декілька хвилин вашего часу для заповнення цієї анкети.</h2>
+
+    <fieldset class="required">
+
+        <div class="title-part">
+            на скільки легко ви сприймаєте новий матеріал?</div>
+
+
+        <label> <input  type="radio" name="radiobutton">легко</label>
+        <label><input type="radio" name="radiobutton">не дуже легко</label>
+        <label><input type="radio" name="radiobutton">нормально</label>
+        <label><input type="radio" name="radiobutton">складно </label>
+    </fieldset>
+    <fieldset class="required">
+
+        <div class="title-part">
+            чи передивляєтесь вдома повторно лекційний стрім?</div>
+
+        <input type="checkbox" name="a" value="так" checked> так
+        <div class="special-padding-row"></div>
+        <div class="label-cont"></div>
+       
+
+        <label>
+       
+<input
+type="checkbox" name="a" value="ні"> ні </label>
+        <div class="special-padding-row"></div>
+
+        <label class="input-group input-group-checkbox row"></label>
+    </fieldset>
+    <fieldset class="required">
+
+        <div class="title-part">
+            скільки часу ви приділяєте виконанню домашнього завдання?
+            <div class="require"><span class="checkbox">
+</span></div>
+        </div>
+
+        <label><input  type="radio" name="radiobutton">мало</label>
+        <label><input type="radio" name="radiobutton">1 годину</label>
+        <label><input type="radio" name="radiobutton">2 години</label>
+        <label><input type="radio" name="radiobutton">більше 2 годин </label>
+
+
+    </fieldset>
+    <fieldset class="required">
+
+        <div class="title-part">
+            як звати вашего Ментора?
+
+        </div>
+        <label><input type="text" name="text" placeholder="призвіще" > </label>
+        <label><input type="text" name="text" placeholder="ім'я"> </label>
+    </fieldset>
+ <fieldset class="required">
+
+        <div class="title-part"></div>
+    <div class="title-part">
+            на скільки ви задоволенісвоїми успіхами в навчанні по 5-бальній шкалі?
+            <div class="require"><span class="checkbox">
+</span></div>
+        </div> 
+        <form action="handler.php">
+   
+   <p><input type="checkbox" name="a" value="5"> 5</p>
+   <p><input type="checkbox" name="a" value="4" checked> 4</p>
+   <p><input type="checkbox" name="a" value="3" > 3</p>
+   <p><input type="checkbox" name="a" value="2"> 2</p>
+   <p><input type="checkbox" name="a" value="1"> 1</p>
+   </form>
+  
+</fieldset>
+    <fieldset class="required">
+
+        <div class="title-part"></div>
+        якщо у вас є пропозиції щодо покращення проведення курсів напишіть їх тут :
+        <div class="require"><span class="checkbox">
+</span></div>
+        <label class="input-group-addon"><textarea class="form-control paragraph counter validate" name="ot[40629]" maxlength="1500" placeHolder="пишимо тут"></textarea></label>
+</fieldset>
+<form method="post" action="https://formspree.io/moralex260@gmail.com">
+        <label>ваше ім"я:
+            <input type="text" name="client-name" required
+             placeholder="Your name">
+        </label>
+        <br>
+        <label for="client-email">client-email:</label>
+        <input type="email" name="client-email" 
+            id="client-email" required>
+        
+        <br>
+        <label>Gender:</label>
+        <br>
+        <label>
+            <input type="radio" name="client-gender" value="male">
+            Male
+        </label>
+        <label>
+            <input type="radio" name="client-gender" value="female">
+            Female
+        </label>
+        <label>
+            <input type="radio" name="client-gender" value="other"
+                checked>
+            Other
+        </label>
+       
+        <br>
+        <input type="submit" value="SEND">
+        <input type="reset" value="BLANK">
+    </form>
+</body>
+</html>
